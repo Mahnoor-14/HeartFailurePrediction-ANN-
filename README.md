@@ -1,5 +1,7 @@
 # HeartFailurePrediction-ANN-
 This project leverages machine learning techniques to predict the likelihood of death in patients suffering from cardiovascular diseases using a clinical dataset. Specifically, it employs an Artificial Neural Network (ANN) model to classify patients based on their health indicators.
+![image](https://github.com/user-attachments/assets/71eefef6-cbd0-42c5-96a2-faa47f50fc01)
+
 📁 Dataset
 Name: Heart Failure Clinical Records Dataset
 
@@ -45,6 +47,7 @@ Data is loaded from a CSV file stored in Google Drive via Google Colab.
 Checked for missing values (none found).
 
 Investigated data balance (imbalance: 203 alive vs 96 deceased).
+![image](https://github.com/user-attachments/assets/233dc30f-4741-45a1-aa08-c3a9905f4b54)
 
 Analyzed correlation using heatmaps.
 
@@ -87,9 +90,11 @@ Plotted to check convergence and overfitting.
 
 Confusion Matrix:
 Helps assess model precision and recall.
+![2](https://github.com/user-attachments/assets/ce05c1c4-e2b3-4b69-8882-fb8beacaebfd)
 
 📌 Results (Sample)
 Validation Accuracy: ~82%
+![1](https://github.com/user-attachments/assets/9ed26413-67a8-45e2-9493-25e568acbfbb)
 
 Precision / Recall / F1-score: Depend on classification threshold (default used: 0.4)
 
